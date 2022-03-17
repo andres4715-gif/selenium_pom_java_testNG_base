@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.wizeline.app.AppTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.824 s <<< FAILURE! - in com.wizeline.app.AppTest
+shouldAnswerWithTrue(com.wizeline.app.AppTest)  Time elapsed: 0.011 s  <<< FAILURE!
+org.json.JSONException: Expected a ':' after a key at 35 [character 36 line 1]
+	at com.wizeline.app.AppTest.shouldAnswerWithTrue(AppTest.java:30)
+
