@@ -2,6 +2,7 @@
 # Folders
 /test-output/
 /.idea
+/target/
 
 ### Java ###
 # Compiled class file
