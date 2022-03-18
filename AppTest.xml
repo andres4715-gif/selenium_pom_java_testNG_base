@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="/Users/andresrios/Documents/AndresRios/AutomationGuild/selenium_pom_java_testNG_base">
+        <classes>
+            <class name="com.wizeline.app.AppTest">
+                <methods>
+                    <include name="shouldAnswerWithTrue"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

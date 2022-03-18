@@ -4,12 +4,8 @@
     <test verbose="2" preserve-order="true"
           name="/Users/andresrios/Documents/AndresRios/AutomationGuild/selenium_pom_java_testNG_base">
         <classes>
-            <class name="com.wizeline.app.AppTest">
-                <methods>
-                    <include name="shouldAnswerWithTrue"/>
-                </methods>
-            </class>
             <class name="com.wizeline.app.AppTestWithTestNg">
+                <parameter name="url" value="https://the-internet.herokuapp.com/"></parameter>
                 <methods>
                     <include name="shouldAnswerWithTrue"/>
                     <include name="newExecutionActivity"/>

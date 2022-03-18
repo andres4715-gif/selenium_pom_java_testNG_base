@@ -43,11 +43,12 @@ public class AppTestWithTestNg {
         Assert.assertTrue(loginpage.checkLabelLoginPage());
     }
 
+    @Parameters({"url"})
     @Test(priority = 2, enabled = true, description = "checking the second activity")
-    public void newExecutionActivity() {
+    public void newExecutionActivity(String myUrl) {
         DropDown dropdown = new DropDown(driver);
         HomePage homepage = new HomePage(driver);
-        driver.navigate().to("https://the-internet.herokuapp.com/");
+        driver.navigate().to(myUrl);
         Assert.assertTrue(homepage.checkMultipleWindows());
         homepage.clickDropDown();
         dropdown.chooseAnOptionDropDown();
