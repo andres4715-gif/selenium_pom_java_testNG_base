@@ -4,6 +4,9 @@
 /.idea
 /target/
 
+# files
+my-app-wizeline-practice.iml
+
 ### Java ###
 # Compiled class file
 *.class
